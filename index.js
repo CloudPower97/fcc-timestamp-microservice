@@ -1,10 +1,9 @@
-require('dotenv').config();
 const express = require('express');
 const helmet = require('helmet');
 var cors = require('cors');
 const timestampRouter = require('./routes/timestamps');
 
-const { PORT } = process.env;
+const PORT = process.env.PORT || 5000;
 
 const app = express()
   .use(helmet())
