@@ -1,0 +1,36 @@
+{
+  "name": "fcc-timestamp-microservice",
+  "version": "0.1.0",
+  "description": "FCC Timestamp Microservice",
+  "engines": {
+    "node": "v11.9.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.15.2",
+    "helmet": "^3.15.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CloudPower97/fcc-timestamp-microservice"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "fcc",
+    "api",
+    "timestamp",
+    "microservice"
+  ],
+  "license": "MIT"
+}
